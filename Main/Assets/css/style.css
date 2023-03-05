@@ -1,3 +1,39 @@
-.header {
-    background-color: aqua;
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    background-color: #13293d;
+    color: #fff;
+  }
+
+nav{
+    display: flex;
+    flex-wrap:wrap;    
+}
+
+nav ul {
+    display: flex;
+    min-width: 50px;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    text-align: end;
+    margin: 50px;
 }
