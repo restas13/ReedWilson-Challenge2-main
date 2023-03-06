@@ -5,35 +5,38 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Reed W</title>
-
-        <!--<link rel="stylesheet" href="reset.css">-->
+        
         <link rel="stylesheet" href="./Assets/css/style.css">
     </head>
 
     <body>
-        <header class="header">
+        <header class="header" id="Topsection">
             <h1>Reed Wilson</h1>
+            <img src="/Main/Assets/images/Profile.png" alt="profile picture" class="profile">
         </header>
 
         <nav>
-            <a>About Me</a>
-            <a>Work</a>
-            <a>Contact Me</a>
+            <a href="#about">About Me</a>
+            <a href="#works">Work</a>
+            <a href="#contacts">Contact Me</a>
         </nav>
 
         
 
         <section>
-            <about>
+            <about id="about">
                 <h2>About Me</h2>
                 <p>
                     My name is Reed Wilson, I graduated from Richard O Jacobson technical high school. I enjoy playing videogames, going to the gym, and playing soccer. I have 
                     competed in the Connect-it NGT 360 competition and won 3rd place. I worked with two teammates to create an app that allows users to budget and save while 
-                    grocery shopping. In addition to competing in a tech competition, I have programed games in unity throughout high school.
+                    grocery shopping. NGT 360 gave me an abundance of experience in real world business and programming through connections, mentors, tasks, and attending the 
+                    Synapse Summit. In addition to competing in NGT 360, I have programed games in unity throughout high school. While in high school, I was able to 
+                    play soccer and win the Figo cup in Lakeland with Celtic SC. After playing for Celtic, I moved to the Clearwater chargers where I played for the rest of my 
+                    soccer experience.
                 </p>
             </about>
 
-            <works>
+            <works id="works">
                 <h2>Some of My Works</h2>
                 <div>
                     <img src="Assets/images/Habitat.png" alt="stellaris-1" class="img1">
@@ -43,12 +46,12 @@
                 </div>                
             </works>
 
-            <Contact>
+            <Contact id="contacts">
                 <h2>Contact Me</h2>
                 <ul>
-                    <li>727-316-2310</li>
-                    <li>dupareed@gmail.com</li>
-                    <li>Github</li>
+                    <li><a  href="#Topsection">727-316-2310</a></li>
+                    <li><a  href="#Topsection">dupareed@gmail.com</a></li>
+                    <li><a  href="#Topsection">Github</a></li>
                 </ul>
             </Contact>
         </section>
